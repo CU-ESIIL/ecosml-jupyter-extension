@@ -1,0 +1,1 @@
+{{"script_command":"{run_command}","algorithm_name":"{algo_name}","code_version":"{version}","algorithm_description":"{description}","environment_name":"{environment}","docker_container_url":"{docker_url}","ecosml_verified":"{ecosml_verified}","repo_url":"{repository_url}","disk_space":"{disk_space}","queue":"{queue}","algorithm_params": [{algo_inputs}]}}
