@@ -1,5 +1,5 @@
 {
-  "name": "ecosml_jupyter_extension",
+  "name": "@maap-jupyterlab/ecosml_jupyter_extension",
   "version": "0.1.0",
   "description": "A JupyterLab extension.",
   "keywords": [
@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/github_username/ecosml_jupyter_extension/issues"
   },
-  "license": "BSD-3-Clause",
+  "license": "Apache License 2.0",
   "author": {
     "name": "Marjorie Lucas",
     "email": "marjorie.j.lucas@jpl.nasa.gov"
