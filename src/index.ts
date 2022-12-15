@@ -21,7 +21,8 @@ var valuesUrl = new URL(PageConfig.getBaseUrl() + 'maapsec/environment');
 request('get', valuesUrl.href).then((res: RequestResult) => {
     if (res.ok) {
         let environment = JSON.parse(res.data);
-        ecosml_server = window.location.protocol + "//" + window.location.hostname + ":" + environment['ecosml_proxy_port'];
+        //ecosml_server = window.location.protocol + "//" + window.location.hostname + ":" + environment['ecosml_proxy_port'];
+        ecosml_server = environment['ecosml_server']
         console.log("Setting ecosml url as: ", ecosml_server)
     }
 });

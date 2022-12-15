@@ -1,15 +1,15 @@
 {
   "name": "@maap-jupyterlab/ecosml_jupyter_extension",
-  "version": "0.1.0",
-  "description": "A JupyterLab extension.",
+  "version": "0.1.1",
+  "description": "A JupyterLab extension for viewing EcoSML",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/github_username/ecosml_jupyter_extension",
+  "homepage": "https://github.com/geospec/ecosml_jupyter_extension",
   "bugs": {
-    "url": "https://github.com/github_username/ecosml_jupyter_extension/issues"
+    "url": "https://github.com/geospec/ecosml_jupyter_extension/issues"
   },
   "license": "Apache License 2.0",
   "author": {
@@ -25,7 +25,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/github_username/ecosml_jupyter_extension.git"
+    "url": "https://github.com/geospec/ecosml_jupyter_extension.git"
   },
   "scripts": {
     "build": "jlpm build:lib && jlpm build:labextension:dev",
@@ -54,10 +54,11 @@
     "watch:labextension": "jupyter labextension watch ."
   },
   "dependencies": {
+    "@jupyter-widgets/base": "^6.0.2",
     "@jupyterlab/application": "^3.1.0",
     "@jupyterlab/coreutils": "^5.1.0",
-    "@jupyterlab/launcher": "^3.5.0",
-    "@jupyterlab/mainmenu": "^3.5.0",
+    "@jupyterlab/launcher": "^3.4.8",
+    "@jupyterlab/mainmenu": "^3.4.8",
     "@jupyterlab/services": "^6.1.0",
     "jupyterlab_toastify": "^4.2.1"
   },
