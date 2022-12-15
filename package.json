@@ -1,6 +1,6 @@
 {
   "name": "@maap-jupyterlab/ecosml_jupyter_extension",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A JupyterLab extension for viewing EcoSML",
   "keywords": [
     "jupyter",
